@@ -1,0 +1,119 @@
+
+/* Services Section */
+
+
+
+#keterampilan .keterampilan {
+	flex-direction: column;
+	
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+#keterampilan .keterampilan-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+#keterampilan .keterampilan-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+#keterampilan .keterampilan-item {
+	flex-basis: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(./img/gambar/keteram.jpeg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+#keterampilan .keterampilan-item::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.9;
+	z-index: -1;
+}
+#keterampilan .keterampilan-bottom .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+#keterampilan .keterampilan-item h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#keterampilan .keterampilan-item p {
+	color: white;
+	text-align: left;
+}
+/* End Services Section */
+
+
+
+/* Services Section */
+#keterampilan .keterampilan-bottom .keterampilan-item {
+    flex-basis: 45%;
+    margin: 2.5%;
+}
+/* End Services Section */
+
+
+#keterampilan .keterampilan-bottom .keterampilan-item {
+    flex-basis: 22%;
+    margin: 1.5%;
+}
+
+#keterampilan .keterampilan-info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+    color: aliceblue;
+    font-style: bold;
+}
+
+
+
+
+.pj-container {
+    display: flex;
+    gap: 50px; /* Atur jarak antara tombol */
+  }
+.pj {
+    font-size: 2.5rem;
+    padding: 20px 60px;
+ 
+}
+.pj {
+	display: inline-block;
+    gap: 20px;
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid rgb(80, 254, 6);
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.pj:hover {
+	color: white;
+	background-color: rgb(118, 251, 10);
+}
+
