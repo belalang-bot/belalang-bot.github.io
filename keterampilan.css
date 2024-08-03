@@ -1,13 +1,5 @@
 
 /* Services Section */
-.keterampilan-container{
-	width: 100%; /* Pastikan kontainer dalam memiliki lebar penuh */
-	max-width: none; /* Hilangkan batasan max-width */
-	margin: 0 auto; /* Posisikan di tengah */
-	padding: 0 20px; /* Berikan sedikit padding jika perlu */
-	box-sizing: border-box; /* Pastikan padding tidak menambah lebar */
-	align-items: center;
-}
 
 
 #keterampilan .keterampilan {
