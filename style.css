@@ -664,8 +664,7 @@ height: auto;
 	flex-basis: 50%;
 	height: 300px;
 	overflow: hidden;
-	width: auto;
-	height: auto;
+	
 	position: relative;
 }
 #pengalaman .pengalaman-img:after {
@@ -680,8 +679,7 @@ height: auto;
 }
 #pengalaman .pengalaman-img img {
 	transition: 0.3s ease transform;
-	width: auto;
-	height: auto;
+	
 }
 #pengalaman .pengalaman-item:hover .pengalaman-img img {
 	transform: scale(1.1);
