@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.resume {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+
+}
+
+.card:last-child {
+    order: 1; /* Memastikan kartu terakhir berada di sebelah kanan */
+}
+
+.header {
+
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.contact p {
+    margin: 5px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+li {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 20px;
+}
+
+li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #333;
+}
+
+
+
+
+ html {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 30px;
+    color: #010000;
+    width: auto;
+}
+
+
+
+section h2 {
+   
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-right: auto;
+    text-align: center;
+    
+
+}
+section p {
+    
+   
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: auto;
+
+    border-radius: 10px;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+
+
+ul {
+    padding: 1;
+    
+}
+
+li {
+ 
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: auto;
+
+  
+
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+
+.resume {
+    background-image: url(./img/cv/1.png);
+    width: 100%;
+    margin: auto;
+    border: 2px solid #110101;
+    padding: 20px;
+}
+
+
+.card {
+
+    border-radius: 20px;
+    overflow: hidden;
+    width: auto;
+}
+
+.header {
+    background-color: hsla(76, 9%, 55%, 0.699);
+    border-radius: 10px;
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.content {
+    border-radius: 10px;
+    background-image:url(./img/cv/jdl.png);
+    display: flex;
+    width: auto;
+    padding:2px;
+}
+
+.profile-pic {
+    flex:  0 6px;
+    margin-left: 10px;
+    text-align: left;
+    
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+   
+    order: 2;
+}
+
+.info {
+    flex: 1;
+    text-align: left; /* Pastikan teks tetap di kiri */
+}
+
+
+.info h1 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #333;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+.contact p {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.contact img {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+#section .h2{
+    background-color: #110101;
+}
