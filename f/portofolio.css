@@ -1,0 +1,109 @@
+/* CSS untuk bagian portofolio */
+
+.portfolio {
+  padding:100px;
+  width: auto;
+  height: auto;
+  position: relative;
+  z-index: 22;
+  background-image: url('../img/herobg.png');
+  background-attachment: fixed;
+}
+
+.portfolio .portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.portfolio .portfolio-item {
+  position: relative; 
+  overflow: hidden;
+  margin-bottom: 3opx;
+  width: auto;
+  height: auto;
+}
+
+.portfolio .portfolio-wrap {
+  position: relative;
+  overflow: hidden;
+  width: auto;
+}
+
+.portfolio .portfolio-wrap img {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-wrap:hover img {
+  transform: scale(1.1);
+}
+
+.portfolio .portfolio-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+
+.portfolio .portfolio-info h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.portfolio .portfolio-info p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.portfolio .portfolio-links {
+  text-align: center;
+}
+
+.portfolio .portfolio-links a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 28px;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.portfolio .portfolio-links a:hover {
+  color: #63eda3;
+}
+
+/* Filter Active State */
+#portfolio-flters li.filter-active {
+  background: #00ff2f;
+  color: #fff;
+}
+
+/* Media Queries untuk tampilan responsive */
+@media (max-width: 992px) {
+  .portfolio .portfolio-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio .portfolio-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
